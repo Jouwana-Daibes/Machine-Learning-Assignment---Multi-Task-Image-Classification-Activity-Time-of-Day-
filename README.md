@@ -56,7 +56,7 @@
 ##### Model 2: Random Forest
 -  Hyperparameter Tuning
     n_estimators: [50, 100, 200, 400, 600]
-- Performance
+- **Performance**
 | Task        | Accuracy   | Notes              |
 |------------|-----------|--------------------|
 | Time of Day | ~64–65%   | Improved over k-NN |
@@ -73,7 +73,7 @@
   - Increased Dropout (0.5 → 0.7)
   - Reduced dense layer size (256 → 128)
   - Added L2 regularization
--Final CNN Performance
+-**Final CNN Performance**
 | Task        | Accuracy |
 |------------|---------|
 | Time of Day | 63.30% |
@@ -90,7 +90,7 @@
     - Class imbalance
     - Similar visual features
     - Limited dataset size
-- Final Comparison
+- **Final Comparison**
 | Model          | Best For             | Limitation            |
 |----------------|----------------------|----------------------|
 | k-NN           | Simple tasks         | Poor scalability     |
