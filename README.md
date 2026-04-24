@@ -44,9 +44,11 @@
 ##### Models & Results
 ###### Model 1: k-Nearest Neighbors (Baseline)
        - Performance
+       ```
           Task	       Best Accuracy	   Notes
           Time of Day	     ~56%	         Works reasonably well
           Activity	       ~48%	         Struggles due to many classes
+       ```
        - Insights
          - Works for simple tasks
          - Fails with high-class imbalance & many categories
@@ -54,9 +56,11 @@
 -  Hyperparameter Tuning
     n_estimators: [50, 100, 200, 400, 600]
 - Performance
+  ```
    Task	        Accuracy	Notes
    Time of Day	~64–65%	  Improved over k-NN
    Activity	    ~56–59%	  Still challenging
+  ```
 - Insights
   - Handles non-linear relationships better
   - Still struggles with rare classes
@@ -70,9 +74,11 @@
   - Reduced dense layer size (256 → 128)
   - Added L2 regularization
 -Final CNN Performance
+ ```
     Task	       Accuracy
     Time of Day	 63.30%
     Activity	   59.38%
+ ```
 - Key Improvements
   - Higher dropout → better generalization
   - L2 regularization → reduced overfitting
@@ -86,9 +92,11 @@
     - Similar visual features
     - Limited dataset size
 - Final Comparison
+  ```
    Model	        Best For	            Limitation
    k-NN	          Simple tasks	        Poor scalability
   Random Forest	  Non-linear patterns	  Weak on rare classes
+  ```
 CNN	 Best overall	Needs more data
 - Conclusion
    - CNN achieved the best performance overall
