@@ -44,11 +44,11 @@
 ##### Models & Results
 ###### Model 1: k-Nearest Neighbors (Baseline)
        - Performance
-       ```
+        ```
           Task	       Best Accuracy	   Notes
           Time of Day	     ~56%	         Works reasonably well
           Activity	       ~48%	         Struggles due to many classes
-       ```
+        ```
        - Insights
          - Works for simple tasks
          - Fails with high-class imbalance & many categories
